@@ -25,7 +25,7 @@ namespace Salesforce_Data_Backup
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
-            //gg
+            //ggdgfdhgfd
             string name = req.Query["name"];
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
